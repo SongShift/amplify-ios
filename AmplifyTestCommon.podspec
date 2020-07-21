@@ -35,7 +35,6 @@ Pod::Spec.new do |s|
   s.subspec 'AWSPluginsTestCommon' do |ss|
     ss.source_files = 'AmplifyPlugins/Core/AWSPluginsTestCommon/**/*.swift'
     ss.dependency 'AWSPluginsCore', $AMPLIFY_VERSION
-    ss.dependency 'AWSCore', $OPTIMISTIC_AWS_SDK_VERSION
   end
 
 end
